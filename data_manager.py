@@ -3,7 +3,7 @@ import os
 from pprint import pprint
 from dotenv import load_dotenv
 load_dotenv()
-SHEETY_PRICES_ENDPOINT ="https://api.sheety.co/13965864f2abcc749d22d3d991258f5b/cheapFlightDeals/prices"
+SHEETY_PRICES_ENDPOINT ="YOUR_PRICES_ENDPOINT"
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
     def __init__(self):
